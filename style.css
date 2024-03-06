@@ -123,49 +123,6 @@ header div:nth-child(n+2) {
 }
 
 
-/* Form */
-
-/* input#type {
-    appearance: none;
-    position: absolute;
-} */
-
-/* .option {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    background: #eee;
-    border-radius: 5px;
-    position: relative;
-    margin-bottom: 10px;
-} */
-
-/* .option span {
-    width: 50%;
-    text-align: center;
-    cursor: pointer;
-    z-index: 2;
-}
-
-.option::before {
-    content: "";
-    position: absolute;
-    top: 5px;
-    left: 0;
-    background-color: #fff;
-    height: calc(100% - 10px);
-    width: calc(50% - 10px);
-    transform: translateX(5px);
-    border-radius: inherit;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-    transition: all 200ms;
-}
-
-input#type:checked~.option::before {
-    left: 50%;
-} */
-
 form {
     display: flex;
     flex-wrap: wrap;
