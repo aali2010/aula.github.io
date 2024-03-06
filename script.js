@@ -15,14 +15,6 @@ const description = document.getElementById("description");
 const amount = document.getElementById("amount");
 
 
-// const dummyTransactions = [
-//     { id: 1, description: "Flower", amount: -20 },
-//     { id: 2, description: "Salary", amount: 300 },
-//     { id: 3, description: "Book", amount: -10 },
-//     { id: 4, description: "Camera", amount: 150 },
-// ];
-
-// let transactions = dummyTransactions;
 
 const localStorageTransactions = JSON.parse(localStorage.getItem('transactions'));
 
